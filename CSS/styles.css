@@ -186,7 +186,7 @@ a {
   border-radius: 5rem;
   border: 0;
   font-weight: bold;
-  padding: 2rem;
+  padding: 2rem 4vw;
   margin: 1rem 0;
   text-align: center;
   text-transform: uppercase;
@@ -242,7 +242,25 @@ a {
   box-shadow: 0 0 5px rgb(173, 173, 173);
   color: var(--color-headings);
   outline: 0;
-  padding: 2rem 3rem;
+  padding: 1.5rem 3.5rem;
+}
+
+.input-container {
+  border-radius: 5rem;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgb(173, 173, 173);
+  display: flex;
+}
+
+.input-container .input {
+  border: 0;
+  box-shadow: none;
+  flex-grow: 1;
+  padding-left: 2rem;
+}
+
+.input-container .button {
+  margin: 0.5rem 0.5rem;
 }
 
 @media screen and (min-width: 1024px) {
